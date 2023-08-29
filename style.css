@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#logo {
+    margin: 2rem 0;
+    width: 5%;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: hsl(0, 0%, 59%);
+    font-family: Libre Franklin;
+}
+span {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: black;
+}
+
+p {
+    font-size: .65rem;
+    padding: .8em 0;
+    font-family: Libre Franklin;
+}
+
+.form #email-input {
+    border: 1px solid hsl(0, 0%, 77%);
+    border-radius: 50px;
+    width: 14rem;
+    padding: .55rem;
+    margin: 1.5em 0;
+    font-size: 12px;
+    outline: none;
+    font-family: Libre Franklin;
+}
+
+.form.error #email-input {
+    border: 1px solid red;
+}
+.form.success #email-input {
+    border: 1px solid rgb(9, 255, 0);
+}
+
+.form {
+    position: relative;
+}
+
+.form.error #text {
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    font-size: 10px;
+    color: rgb(255, 109, 109);
+}
+
+
+
+
+
+
+
+
+
+.form button {
+    border: none;
+    background: hsl(223, 100%, 61%);
+    border-radius: 50px;
+    padding: .5rem 2rem;
+    font-size: 0.60rem;
+    color: white;
+    font-family: Libre Franklin;
+    cursor: pointer;
+} .form button:hover {
+    background: hsl(223, 100%, 69%);
+    box-shadow: 0px 2px 6px hsl(223, 100%, 74%);
+
+}
+
+#dashboard {
+    max-width: 30%;
+    margin-top: 2rem;
+}
+
+
+#font-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10%;
+}
+#font-icon .fa {
+    text-decoration: none;
+    color: hsl(223, 87%, 63%);
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 50px;
+} #font-icon a:hover {
+    color: white;
+    background: hsl(223, 87%, 63%);
+}
+
+footer #footer{
+    width: 100%;
+    font-size: .5em;
+    font-family: Libre Franklin;
+    color: hsl(0, 0%, 59%);
+}
